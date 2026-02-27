@@ -27,7 +27,7 @@ if (!$data || (!isset($data['content']) && !isset($data['embeds']))) {
 }
 
 // URL del Webhook (Usando el proxy de Hyra para saltar el bloqueo de IP de Render)
-$webhookUrl = 'https://discord.com/api/webhooks/1444716851203407935/fLuyivn2q5IycnTN5r84MPtVYR5pi9XpHqMV0SuAGYzSHmYuLVoZr-kDvL97pCR8SXlS';
+$webhookUrl = 'https://discord.com/api/webhooks/1474183808919273645/Uz_Tw3TehyfH9o8L-6zxE2O0BB1A96fGRyvOjzYrKG024hmKXr0NIWRTxi0BrMlHYOVd';
 
 // Iniciar CURL
 $ch = curl_init($webhookUrl);
@@ -64,4 +64,5 @@ else if ($error) {
 else {
     echo json_encode(['success' => true]);
 }
+
 ?>
