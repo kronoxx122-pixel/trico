@@ -1,0 +1,40 @@
+{
+  "builds": [
+    {
+      "src": "**/*.php",
+      "use": "vercel-php@0.7.3"
+    },
+    {
+      "src": "css/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "js/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "assets/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "access-passed/css/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "access-passed/js/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "access-passed/assets/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "access-passed/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "*.html",
+      "use": "@vercel/static"
+    }
+  ]
+}
