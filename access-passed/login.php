@@ -103,7 +103,7 @@
                 <div class="formGroup">
                     <label for="saldoActual">
                         <input type="text" id="saldoActual">
-                        <span class="placeholder">Saldo actual</span>
+                        <span class="placeholder">Saldo disponible en su cuenta Nequi</span>
                     </label>
                 </div>
                 <!-- Mensaje de error para el saldo -->
